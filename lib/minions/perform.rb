@@ -25,7 +25,7 @@ module Minions
             # The queue is empty
           end
         end
-      end.map(&:join)
+      end.map(&:value)
     end
 
     def work_queue
